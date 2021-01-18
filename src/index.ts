@@ -135,7 +135,7 @@ const absToRel = (modulePath: string, outFile: string): string => {
           return rel;
         }
       }
-      console.log(`could not replace ${modulePath}`);
+      throw new Error(`could not replace ${modulePath}`);
     }
   }
   return modulePath;
