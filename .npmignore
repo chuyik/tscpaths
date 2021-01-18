@@ -31,3 +31,5 @@ coverage
 
 # Secrets
 .env
+
+src
